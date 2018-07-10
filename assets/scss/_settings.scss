@@ -1,0 +1,91 @@
+body {
+	background-color: #000c04;
+}
+
+nav {
+	background-color: #1d1902;
+	font-size: 20px;
+}
+
+.navigation a {
+	
+	color: #895a08;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.navigation a:visited {
+    text-decoration: none;
+    color: #895a08;
+}
+
+.topics a {
+	color: #040a3a;
+
+}
+
+.topics a:hover {
+	text-decoration: underline;
+}
+
+.topics a:visited {
+    text-decoration: none;
+    color: #040a3a;
+}
+
+.categories a {
+	text-align: center;
+	color: #040a3a;
+}
+
+.categories li {
+	padding-bottom: 5px;
+}
+
+.categories a:hover {
+	color: #040a3a;
+	text-decoration: underline;
+
+}
+
+.categories a:visited {
+    text-decoration: none;
+    color: #040a3a;
+}
+
+.myThreads ul {
+	list-style: none;
+}
+
+.myThreads a {
+	color: #040a3a;
+	text-align: center;
+}
+
+.myThreads a:hover {
+	color: #040a3a;
+	text-decoration: underline;
+}
+
+.myThreads a:visited {
+    text-decoration: none;
+    color: #040a3a;
+}
+
+.myThreads li {
+	padding-bottom: 5px;
+}	
+
+
+
+
+footer {
+	background-color: #1d1902;
+}

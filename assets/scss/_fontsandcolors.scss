@@ -1,0 +1,51 @@
+$mainFont: 'Lora', serif;
+$navColor: #895a08;
+
+
+
+
+body {
+	font-family: $mainFont;
+}
+
+nav, footer {
+	color: $navColor;
+}
+
+.categories li, .myThreads li {
+	font-size: 18px;
+}
+
+textarea {
+	background-color: #f7deb9;
+	border-radius: 3px;
+}
+
+
+.replyToTopic button {
+	
+	border: 2px solid black;
+	background-color: $boxBackground;
+	border-radius: 10px;
+	letter-spacing: 1px;
+	height: 41px;
+	width: 10%;	
+}
+
+.replyToTopic h3 {
+	color: $navColor;
+	font-size: 22px;
+}
+
+footer {
+	text-align: center;
+}
+
+.footerText {
+	letter-spacing: 1px;
+}
+
+
+
+
+

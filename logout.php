@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['userId']);
+unset($_SESSION['userLoggedIn']);
+session_destroy();
+
+header("Location: index.php");
+exit;
+?>
